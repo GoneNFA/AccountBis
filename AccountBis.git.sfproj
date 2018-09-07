@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{8c283c3d-d145-4122-84c0-83a015fb5014}</ProjectGuid>
+    <ApexVersion>42.0</ApexVersion>
+    <Name>AccountBis</Name>
+    <AssemblyName>AccountBis</AssemblyName>
+    <RootNamespace>AccountBis</RootNamespace>
+    <ProjectVersion>6</ProjectVersion>
+    <PackageVersion>1.15.2.4</PackageVersion>
+    <SyncOption>True</SyncOption>
+    <AntSupport>False</AntSupport>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
+  <ItemGroup>
+    <Folder Include="AnonymousApex" />
+    <Folder Include="Soql" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="classes/AccountsController.cls">
+      <PhysicalRelativePath>src/classes/AccountsController.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="globalValueSets/Asset_Class.globalValueSet">
+      <PhysicalRelativePath>src/globalValueSets/Asset_Class.globalValueSet</PhysicalRelativePath>
+      <SubType>GlobalValueSet</SubType>
+    </Object>
+    <Object Include="profiles/Admin.profile">
+      <PhysicalRelativePath>src/profiles/Admin.profile</PhysicalRelativePath>
+      <SubType>Profile</SubType>
+    </Object>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="classes/AccountsController.cls-meta.xml">
+      <PhysicalRelativePath>src/classes/AccountsController.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <PackageName />
+      <DependentUpon>classes/AccountsController.cls</DependentUpon>
+    </None>
+  </ItemGroup>
+</Project>

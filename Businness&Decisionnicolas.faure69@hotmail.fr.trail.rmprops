@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-16"?>
+<RemotePropertiesSet xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Items>
+        <RemoteItemProperties>
+            <ItemKey>src\classes\AccountsController.cls</ItemKey>
+            <Id>01p2400000D2PkqAAF</Id>
+            <Hash>+MRHlcRGk4K77t9Do8+sEg==</Hash>
+            <LastModifiedDateUtcTicks>131807827190000000</LastModifiedDateUtcTicks>
+        </RemoteItemProperties>
+        <RemoteItemProperties>
+            <ItemKey>src\globalValueSets\Asset_Class.globalValueSet</ItemKey>
+            <Id>0Nt1o000000bnLVCAY</Id>
+            <Hash>S+YWBz/fmBdKtnyJZuh2eg==</Hash>
+            <LastModifiedDateUtcTicks>131690497080000000</LastModifiedDateUtcTicks>
+        </RemoteItemProperties>
+        <RemoteItemProperties>
+            <ItemKey>src\profiles\Admin.profile</ItemKey>
+            <Id>00e240000013WIiAAM</Id>
+            <Hash>AURfeZZgSAE7NPLJ6oAlcg==</Hash>
+            <LastModifiedDateUtcTicks>131726635150000000</LastModifiedDateUtcTicks>
+        </RemoteItemProperties>
+        <RemoteItemProperties>
+            <ItemKey>src\classes\AccountsController.cls-meta.xml</ItemKey>
+            <Hash>uwZXo0MLIqlu2+U6OesXVA==</Hash>
+            <LastModifiedDateUtcTicks>131807827190000000</LastModifiedDateUtcTicks>
+        </RemoteItemProperties>
+    </Items>
+</RemotePropertiesSet>
