@@ -7,10 +7,13 @@ public class AccountsController {
         FROM Account ORDER BY createdDate ASC LIMIT 33];
     }
 
+
+
     @AuraEnabled
     public static List<Contact> getContacts(String accountID) {
 
         system.debug('ACC : ' + accountID);
+
 
         List<Contact> contacts = [SELECT id, FirstName, LAstName, email
                                   FROM Contact
